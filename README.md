@@ -1,1 +1,27 @@
 # nytemart.github.io
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+    }
+    iframe {
+      position: absolute;
+      top: 0;
+      right: 0; /* focus top-right corner */
+      width: 300%;
+      height: 300%;
+      transform: translate(0%, 0); /* shift so top-right is visible */
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <iframe src="http://outpost24.com"></iframe>
+</body>
+</html>
